@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BD43AAED1E4EBD0F0000C39D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43AAEC1E4EBD0F0000C39D /* AppDelegate.swift */; };
-		BD43AAEF1E4EBD0F0000C39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43AAEE1E4EBD0F0000C39D /* ViewController.swift */; };
+		BD43AAEF1E4EBD0F0000C39D /* PhotoLibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43AAEE1E4EBD0F0000C39D /* PhotoLibraryController.swift */; };
 		BD43AAF21E4EBD0F0000C39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD43AAF01E4EBD0F0000C39D /* Main.storyboard */; };
 		BD43AAF41E4EBD0F0000C39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD43AAF31E4EBD0F0000C39D /* Assets.xcassets */; };
 		BD43AAF71E4EBD0F0000C39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD43AAF51E4EBD0F0000C39D /* LaunchScreen.storyboard */; };
+		BD94ACD81E4FB0B400AFCB99 /* AssetCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94ACD71E4FB0B400AFCB99 /* AssetCollectionCell.swift */; };
+		BD94ACDA1E4FC66400AFCB99 /* SeeImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94ACD91E4FC66400AFCB99 /* SeeImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD43AAE91E4EBD0F0000C39D /* CustomPhotoLibarary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPhotoLibarary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD43AAEC1E4EBD0F0000C39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD43AAEE1E4EBD0F0000C39D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD43AAEE1E4EBD0F0000C39D /* PhotoLibraryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryController.swift; sourceTree = "<group>"; };
 		BD43AAF11E4EBD0F0000C39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD43AAF31E4EBD0F0000C39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD43AAF61E4EBD0F0000C39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD43AAF81E4EBD0F0000C39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD94ACD71E4FB0B400AFCB99 /* AssetCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetCollectionCell.swift; sourceTree = "<group>"; };
+		BD94ACD91E4FC66400AFCB99 /* SeeImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				BD43AAEC1E4EBD0F0000C39D /* AppDelegate.swift */,
-				BD43AAEE1E4EBD0F0000C39D /* ViewController.swift */,
+				BD43AAEE1E4EBD0F0000C39D /* PhotoLibraryController.swift */,
+				BD94ACD91E4FC66400AFCB99 /* SeeImageController.swift */,
+				BD94ACD71E4FB0B400AFCB99 /* AssetCollectionCell.swift */,
 				BD43AAF01E4EBD0F0000C39D /* Main.storyboard */,
 				BD43AAF31E4EBD0F0000C39D /* Assets.xcassets */,
 				BD43AAF51E4EBD0F0000C39D /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD43AAEF1E4EBD0F0000C39D /* ViewController.swift in Sources */,
+				BD94ACDA1E4FC66400AFCB99 /* SeeImageController.swift in Sources */,
+				BD43AAEF1E4EBD0F0000C39D /* PhotoLibraryController.swift in Sources */,
 				BD43AAED1E4EBD0F0000C39D /* AppDelegate.swift in Sources */,
+				BD94ACD81E4FB0B400AFCB99 /* AssetCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				BD43AAFD1E4EBD0F0000C39D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

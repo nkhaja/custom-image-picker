@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2E86611E615DF6000C7EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E86601E615DF6000C7EBA /* ViewController.swift */; };
 		BD43AAED1E4EBD0F0000C39D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43AAEC1E4EBD0F0000C39D /* AppDelegate.swift */; };
 		BD43AAEF1E4EBD0F0000C39D /* PhotoLibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43AAEE1E4EBD0F0000C39D /* PhotoLibraryController.swift */; };
 		BD43AAF21E4EBD0F0000C39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD43AAF01E4EBD0F0000C39D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2E86601E615DF6000C7EBA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD43AAE91E4EBD0F0000C39D /* CustomPhotoLibarary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPhotoLibarary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD43AAEC1E4EBD0F0000C39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD43AAEE1E4EBD0F0000C39D /* PhotoLibraryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				BD43AAEC1E4EBD0F0000C39D /* AppDelegate.swift */,
 				BD43AAEE1E4EBD0F0000C39D /* PhotoLibraryController.swift */,
+				BD2E86601E615DF6000C7EBA /* ViewController.swift */,
 				BD94ACD91E4FC66400AFCB99 /* SeeImageController.swift */,
 				BD94ACD71E4FB0B400AFCB99 /* AssetCollectionCell.swift */,
 				BD43AAF01E4EBD0F0000C39D /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2E86611E615DF6000C7EBA /* ViewController.swift in Sources */,
 				BD94ACDA1E4FC66400AFCB99 /* SeeImageController.swift in Sources */,
 				BD43AAEF1E4EBD0F0000C39D /* PhotoLibraryController.swift in Sources */,
 				BD43AAED1E4EBD0F0000C39D /* AppDelegate.swift in Sources */,
